@@ -17,7 +17,7 @@ func sum_to_n_b(n int) int {
 }
 
 func sum_to_n_c(n int) int {
-	// your code here
+	// This solution has a time complexity of O(n) and a space complexity of O(1)
 	var sum int = 0
 	for i := 1; i <= n; i++ {
 		sum += i
